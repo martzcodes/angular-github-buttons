@@ -1,0 +1,12 @@
+{
+  "name": "angular-github-buttons",
+  "author": "Matt Martz",
+  "license": "MIT",
+  "module": "dist/angular-github-buttons.es5.js",
+  "es2015": "dist/angular-github-buttons.js",
+  "peerDependencies": {
+    "@angular/core": "^4.0.1",
+    "rxjs": "^5.3.0",
+    "zone.js": "^0.8.5"
+  }
+}
