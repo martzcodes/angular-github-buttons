@@ -1,8 +1,0 @@
-<!--user="martzcodes" repo="martzcodes.github.io" type="star" count="true" size="large"-->
-<span [ngClass]="{'github-btn':size!=='large', 'github-btn-large':size==='large'}" id="github-btn">
-    <a class="gh-btn" [ngClass]="mainClass" id="gh-btn" target="_blank" aria-label="" href="{{buttonHref}}">
-        <span class="gh-ico" aria-hidden="true"></span>
-    <span class="gh-text" id="gh-text">{{buttonType}}</span>
-    </a>
-    <a *ngIf="count==='true'" class="gh-count" id="gh-count" href="{{counterHref}}" target="_blank" aria-label="">{{counterNum | number}}</a>
-</span>

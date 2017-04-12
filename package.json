@@ -1,9 +1,10 @@
 {
   "name": "angular-github-buttons",
   "version": "0.0.1",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "scripts": {
     "start": "webpack-dev-server --port=4200",
+    "build": "./build.sh",
     "pages": "webpack",
     "lint": "ng lint"
   },
