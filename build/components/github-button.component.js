@@ -1,6 +1,5 @@
 import { Component, Input, Inject } from '@angular/core';
 import { GithubService } from './github.service';
-import 'rxjs/add/operator/map';
 var GithubButton = (function () {
     /**
      * @param {?} github

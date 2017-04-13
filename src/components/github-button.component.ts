@@ -3,8 +3,6 @@ import { Http, Response } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import { GithubService } from './github.service';
 
-import 'rxjs/add/operator/map';
-
 @Component({
   selector: 'ng-gh-btn',
   template: `

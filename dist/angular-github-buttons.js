@@ -2,8 +2,12 @@ import { Component, Inject, Injectable, Input, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Http, HttpModule } from '@angular/http';
 import 'rxjs/add/operator/share';
-import 'rxjs/add/operator/map';
 
+class User {
+    constructor() {
+        this.repos = {};
+    }
+}
 class GithubService {
     /**
      * @param {?} http
@@ -19,7 +23,7 @@ class GithubService {
      */
     getUserInfo(username) {
         if (!this.users.hasOwnProperty(username)) {
-            this.users[username] = {};
+            this.users[username] = new User();
             this.users[username].observable = this.http.get('https://api.github.com/users/' + username).share();
         }
         else {
@@ -36,7 +40,7 @@ class GithubService {
      */
     getRepoInfo(username, reponame) {
         if (!this.users.hasOwnProperty(username)) {
-            this.users[username] = {};
+            this.users[username] = new User();
             this.users[username].repos[reponame] = this.http.get('https://api.github.com/repos/' + username + '/' + reponame).share();
         }
         else {

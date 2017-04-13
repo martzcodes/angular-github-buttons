@@ -3,6 +3,11 @@ import { Http, Response } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/share';
 
+class User {
+    observable: Observable<any>;
+    repos: any = {};
+}
+
 @Injectable()
 export class GithubService {
     private apiUrl = 'https://api.github.com/';  // URL to web API
@@ -12,7 +17,7 @@ export class GithubService {
 
     getUserInfo(username: string) {
         if (!this.users.hasOwnProperty(username)) {
-            this.users[username] = {};
+            this.users[username] = new User();
             this.users[username].observable = this.http.get('https://api.github.com/users/' + username).share();
         } else {
             if (!this.users[username].observable) {
@@ -24,7 +29,7 @@ export class GithubService {
 
     getRepoInfo(username: string, reponame: string) {
         if (!this.users.hasOwnProperty(username)) {
-            this.users[username] = {};
+            this.users[username] = new User();
             this.users[username].repos[reponame] = this.http.get('https://api.github.com/repos/' + username + '/' + reponame).share();
         } else {
             if (!this.users[username].repos.hasOwnProperty(reponame)) {
