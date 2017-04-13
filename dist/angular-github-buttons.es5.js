@@ -1,17 +1,9 @@
 import { Component, Inject, Injectable, Input, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Http, HttpModule } from '@angular/http';
-import 'rxjs/add/operator/catch';
-import 'rxjs/add/operator/map';
-import 'rxjs/add/operator/debounceTime';
 import 'rxjs/add/operator/share';
+import 'rxjs/add/operator/map';
 
-var User = (function () {
-    function User() {
-        this.repos = {};
-    }
-    return User;
-}());
 var GithubService = (function () {
     /**
      * @param {?} http
@@ -27,7 +19,7 @@ var GithubService = (function () {
      */
     GithubService.prototype.getUserInfo = function (username) {
         if (!this.users.hasOwnProperty(username)) {
-            this.users[username] = new User();
+            this.users[username] = {};
             this.users[username].observable = this.http.get('https://api.github.com/users/' + username).share();
         }
         else {
@@ -44,7 +36,7 @@ var GithubService = (function () {
      */
     GithubService.prototype.getRepoInfo = function (username, reponame) {
         if (!this.users.hasOwnProperty(username)) {
-            this.users[username] = new User();
+            this.users[username] = {};
             this.users[username].repos[reponame] = this.http.get('https://api.github.com/repos/' + username + '/' + reponame).share();
         }
         else {

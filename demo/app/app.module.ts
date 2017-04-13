@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { GithubButtonModule } from '../../src/components/github-button.module';
+import { GithubButtonModule } from '../../dist/angular-github-buttons';
 
 import { AppComponent } from './app.component';
 

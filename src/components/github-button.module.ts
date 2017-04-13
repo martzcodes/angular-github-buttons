@@ -8,7 +8,7 @@ export * from './github-button.component';
 @NgModule({
   imports: [CommonModule, HttpModule],
   declarations: [GithubButton],
-  exports: [GithubButton, GithubService],
+  exports: [GithubButton],
   providers: [GithubService]
 })
 export class GithubButtonModule {}

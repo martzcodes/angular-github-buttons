@@ -1,10 +1,11 @@
 {
   "name": "angular-github-buttons",
   "author": "Matt Martz",
-  "version": "1.0.0",
-  "license": "Apache-2.0",
-  "module": "dist/angular-github-buttons.es5.js",
-  "es2015": "dist/angular-github-buttons.js",
+  "license": "MIT",
+  "version": "1.1.0",
+  "module": "angular-github-buttons.es5.js",
+  "es2015": "angular-github-buttons.js",
+  "typings": "angular-github-buttons.d.ts",
   "peerDependencies": {
     "@angular/common": "^4.0.0",
     "@angular/core": "^4.0.1",
