@@ -1,6 +1,6 @@
 webpackJsonp([1,4],{
 
-/***/ 135:
+/***/ 134:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(45)();
@@ -18,24 +18,22 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 137:
+/***/ 136:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"container\">\n    <div class=\"tweet-button\">\n        <a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-count=\"none\" data-via=\"martzcodes\">Tweet</a>\n    </div>\n\n    <p>Introducing the unofficial</p>\n    <h1>[Angular-ized] GitHub buttons</h1>\n    <p>Showcase your GitHub repo&#39;s success with hotlinkable GitHub star, fork, or follow buttons. Available in two sizes\n        with up-to-date counts.</p>\n    <p>Made by <a href=\"https://twitter.com/martzcodes\">@martzcodes</a>. Available on <a href=\"https://github.com/martzcodes/martzcodes-github-buttons\">GitHub</a>.</p>\n    <p>Inspired by the original (non-Angular) version by <a href=\"https://twitter.com/mdo\">@mdo</a>. Also on <a href=\"https://github.com/mdo/github-buttons\">GitHub</a>.</p>\n    <p>Licensed <a href=\"http://www.apache.org/licenses/LICENSE-2.0\">Apache 2</a>.</p>\n\n    <hr>\n\n    <h2 id=\"contents\">Contents</h2>\n\n    <ul id=\"markdown-toc\">\n        <li><a href=\"#contents\">Contents</a></li>\n        <li><a href=\"#star\">Star</a></li>\n        <li><a href=\"#watch\">Watch</a></li>\n        <li><a href=\"#fork\">Fork</a></li>\n        <li><a href=\"#follow\">Follow</a></li>\n        <li><a href=\"#open-source\">Open source</a></li>\n    </ul>\n\n    <hr />\n\n    <h2 id=\"star\">Star</h2>\n\n    <div class=\"example\">\n        <ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"star\" count=\"true\" size=\"large\"></ng-gh-btn>\n    </div>\n\n    <div class=\"highlight\">\n        <code class=\"language-html\" data-lang=\"html\">\n            &lt;ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"star\" count=\"true\" size=\"large\"&gt;&lt;/ng-gh-btn&gt;\n        </code>\n    </div>\n\n    <div class=\"example\">\n        <ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"star\" count=\"true\"></ng-gh-btn>\n    </div>\n\n    <div class=\"highlight\">\n        <code class=\"language-html\" data-lang=\"html\">\n            &lt;ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"star\" count=\"true\" &gt;&lt;/ng-gh-btn&gt;\n        </code>\n    </div>\n\n    <h2 id=\"watch\">Watch</h2>\n    <div class=\"example\">\n        <ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"watch\" count=\"true\" size=\"large\"></ng-gh-btn>\n    </div>\n\n    <div class=\"highlight\">\n        <code class=\"language-html\" data-lang=\"html\">\n            &lt;ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"watch\" count=\"true\" size=\"large\"&gt;&lt;/ng-gh-btn&gt;\n        </code>\n    </div>\n\n    <div class=\"example\">\n        <ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"watch\" count=\"true\"></ng-gh-btn>\n    </div>\n\n    <div class=\"highlight\">\n        <code class=\"language-html\" data-lang=\"html\">\n            &lt;ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"watch\" count=\"true\" &gt;&lt;/ng-gh-btn&gt;\n        </code>\n    </div>    \n\n    <h2 id=\"fork\">Fork</h2>\n\n    <div class=\"example\">\n        <ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"fork\" count=\"true\" size=\"large\"></ng-gh-btn>\n    </div>\n\n    <div class=\"highlight\">\n        <code class=\"language-html\" data-lang=\"html\">\n            &lt;ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"fork\" count=\"true\" size=\"large\"&gt;&lt;/ng-gh-btn&gt;\n        </code>\n    </div>\n\n    <div class=\"example\">\n        <ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"fork\" count=\"true\"></ng-gh-btn>\n    </div>\n\n    <div class=\"highlight\">\n        <code class=\"language-html\" data-lang=\"html\">\n            &lt;ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"fork\" count=\"true\" &gt;&lt;/ng-gh-btn&gt;\n        </code>\n    </div>\n\n    <h2 id=\"follow\">Follow</h2>\n\n    <div class=\"example\">\n        <ng-gh-btn username=\"martzcodes\" type=\"follow\" count=\"true\" size=\"large\"></ng-gh-btn>\n    </div>\n\n    <div class=\"highlight\">\n        <code class=\"language-html\" data-lang=\"html\">\n            &lt;ng-gh-btn username=\"martzcodes\" type=\"follow\" count=\"true\" size=\"large\"&gt;&lt;/ng-gh-btn&gt;\n        </code>\n    </div>\n\n    <div class=\"example\">\n        <ng-gh-btn username=\"martzcodes\" type=\"follow\" count=\"true\"></ng-gh-btn>\n    </div>\n\n    <div class=\"highlight\">\n        <code class=\"language-html\" data-lang=\"html\">\n            &lt;ng-gh-btn username=\"martzcodes\" type=\"follow\" count=\"true\" &gt;&lt;/ng-gh-btn&gt;\n        </code>\n    </div>\n\n    <hr />\n\n    <h2 id=\"open-source\">Open source</h2>\n\n    <p>The unofficial Angular GitHub buttons are available on GitHub for downloading, forking, or contributing.</p>\n\n    <div class=\"example\">\n        <ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"star\" count=\"false\" size=\"large\"></ng-gh-btn>\n        <ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"fork\" count=\"false\" size=\"large\"></ng-gh-btn>\n    </div>\n\n    <p><a href=\"https://github.com/martzcodes/angular-github-buttons\" class=\"btn\">View on GitHub</a></p>\n\n    <hr />\n\n    <p>&lt;3</p>\n\n</div>"
 
 /***/ }),
 
-/***/ 160:
+/***/ 159:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_share__ = __webpack_require__(141);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_share__ = __webpack_require__(139);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_share___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_share__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GithubButtonModule; });
 /* unused harmony export GithubButton */
 /* unused harmony export ɵa */
@@ -44,12 +42,17 @@ module.exports = "<div class=\"container\">\n    <div class=\"tweet-button\">\n 
 
 
 
-
-class GithubService {
+var User = (function () {
+    function User() {
+        this.repos = {};
+    }
+    return User;
+}());
+var GithubService = (function () {
     /**
      * @param {?} http
      */
-    constructor(http) {
+    function GithubService(http) {
         this.http = http;
         this.apiUrl = 'https://api.github.com/';
         this.users = {};
@@ -58,9 +61,9 @@ class GithubService {
      * @param {?} username
      * @return {?}
      */
-    getUserInfo(username) {
+    GithubService.prototype.getUserInfo = function (username) {
         if (!this.users.hasOwnProperty(username)) {
-            this.users[username] = {};
+            this.users[username] = new User();
             this.users[username].observable = this.http.get('https://api.github.com/users/' + username).share();
         }
         else {
@@ -69,15 +72,15 @@ class GithubService {
             }
         }
         return this.users[username].observable;
-    }
+    };
     /**
      * @param {?} username
      * @param {?} reponame
      * @return {?}
      */
-    getRepoInfo(username, reponame) {
+    GithubService.prototype.getRepoInfo = function (username, reponame) {
         if (!this.users.hasOwnProperty(username)) {
-            this.users[username] = {};
+            this.users[username] = new User();
             this.users[username].repos[reponame] = this.http.get('https://api.github.com/repos/' + username + '/' + reponame).share();
         }
         else {
@@ -86,46 +89,48 @@ class GithubService {
             }
         }
         return this.users[username].repos[reponame];
-    }
-}
+    };
+    return GithubService;
+}());
 GithubService.decorators = [
     { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */] },
 ];
 /**
  * @nocollapse
  */
-GithubService.ctorParameters = () => [
+GithubService.ctorParameters = function () { return [
     { type: __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* Http */], decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Inject */], args: [__WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* Http */],] },] },
-];
+]; };
 
-class GithubButton {
+var GithubButton = (function () {
     /**
      * @param {?} github
      */
-    constructor(github) {
+    function GithubButton(github) {
         this.github = github;
     }
     /**
      * @return {?}
      */
-    ngOnInit() {
+    GithubButton.prototype.ngOnInit = function () {
+        var _this = this;
         if (this.reponame && this.type !== 'follow') {
-            this.github.getRepoInfo(this.username, this.reponame).subscribe(repo => {
-                this.repo = repo.json();
-                this.process();
+            this.github.getRepoInfo(this.username, this.reponame).subscribe(function (repo) {
+                _this.repo = repo.json();
+                _this.process();
             });
         }
         else if (this.type === 'follow') {
-            this.github.getUserInfo(this.username).subscribe(user => {
-                this.user = user.json();
-                this.process();
+            this.github.getUserInfo(this.username).subscribe(function (user) {
+                _this.user = user.json();
+                _this.process();
             });
         }
-    }
+    };
     /**
      * @return {?}
      */
-    process() {
+    GithubButton.prototype.process = function () {
         switch (this.type) {
             case 'watch':
                 this.mainClass += ' github-watchers';
@@ -156,155 +161,22 @@ class GithubButton {
                 this.counterNum = this.user.followers;
                 break;
         }
-    }
-}
+    };
+    return GithubButton;
+}());
 GithubButton.decorators = [
     { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["e" /* Component */], args: [{
                 selector: 'ng-gh-btn',
-                template: `
-  <span [ngClass]="{'github-btn':size!=='large', 'github-btn-large':size==='large'}" id="github-btn">
-    <a class="gh-btn" [ngClass]="mainClass" id="gh-btn" target="_blank" aria-label="" href="{{buttonHref}}">
-        <span class="gh-ico" aria-hidden="true"></span>
-    <span class="gh-text" id="gh-text">{{buttonType}}</span>
-    </a>
-    <a *ngIf="count==='true'" class="gh-count" id="gh-count" href="{{counterHref}}" target="_blank" aria-label="">{{counterNum | number}}</a>
-  </span>
-`,
-                styles: [`
-  body {
-  padding: 0;
-  margin: 0;
-  font: bold 11px/14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  overflow: hidden;
-}
-.github-btn {
-  height: 20px;
-  overflow: hidden;
-}
-.gh-btn,
-.gh-count,
-.gh-ico {
-  float: left;
-}
-.gh-btn,
-.gh-count {
-  padding: 2px 5px 2px 4px;
-  color: #333;
-  text-decoration: none;
-  white-space: nowrap;
-  cursor: pointer;
-  border-radius: 3px;
-}
-.gh-btn {
-  background-color: #eee;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fcfcfc), color-stop(100%, #eee));
-  background-image: -webkit-linear-gradient(top, #fcfcfc 0, #eee 100%);
-  background-image: -moz-linear-gradient(top, #fcfcfc 0, #eee 100%);
-  background-image: -ms-linear-gradient(top, #fcfcfc 0, #eee 100%);
-  background-image: -o-linear-gradient(top, #fcfcfc 0, #eee 100%);
-  background-image: linear-gradient(to bottom, #fcfcfc 0, #eee 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#eeeeee', GradientType=0);
-  background-repeat: no-repeat;
-  border: 1px solid #d5d5d5;
-}
-.gh-btn:hover,
-.gh-btn:focus {
-  text-decoration: none;
-  background-color: #ddd;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eee), color-stop(100%, #ddd));
-  background-image: -webkit-linear-gradient(top, #eee 0, #ddd 100%);
-  background-image: -moz-linear-gradient(top, #eee 0, #ddd 100%);
-  background-image: -ms-linear-gradient(top, #eee 0, #ddd 100%);
-  background-image: -o-linear-gradient(top, #eee 0, #ddd 100%);
-  background-image: linear-gradient(to bottom, #eee 0, #ddd 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#dddddd', GradientType=0);
-  border-color: #ccc;
-}
-.gh-btn:active {
-  background-image: none;
-  background-color: #dcdcdc;
-  border-color: #b5b5b5;
-  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);
-}
-.gh-ico {
-  width: 14px;
-  height: 14px;
-  margin-right: 4px;
-  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjQwcHgiIGhlaWdodD0iNDBweCIgdmlld0JveD0iMTIgMTIgNDAgNDAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMTIgMTIgNDAgNDAiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGZpbGw9IiMzMzMzMzMiIGQ9Ik0zMiAxMy40Yy0xMC41IDAtMTkgOC41LTE5IDE5YzAgOC40IDUuNSAxNS41IDEzIDE4YzEgMC4yIDEuMy0wLjQgMS4zLTAuOWMwLTAuNSAwLTEuNyAwLTMuMiBjLTUuMyAxLjEtNi40LTIuNi02LjQtMi42QzIwIDQxLjYgMTguOCA0MSAxOC44IDQxYy0xLjctMS4yIDAuMS0xLjEgMC4xLTEuMWMxLjkgMC4xIDIuOSAyIDIuOSAyYzEuNyAyLjkgNC41IDIuMSA1LjUgMS42IGMwLjItMS4yIDAuNy0yLjEgMS4yLTIuNmMtNC4yLTAuNS04LjctMi4xLTguNy05LjRjMC0yLjEgMC43LTMuNyAyLTUuMWMtMC4yLTAuNS0wLjgtMi40IDAuMi01YzAgMCAxLjYtMC41IDUuMiAyIGMxLjUtMC40IDMuMS0wLjcgNC44LTAuN2MxLjYgMCAzLjMgMC4yIDQuNyAwLjdjMy42LTIuNCA1LjItMiA1LjItMmMxIDIuNiAwLjQgNC42IDAuMiA1YzEuMiAxLjMgMiAzIDIgNS4xYzAgNy4zLTQuNSA4LjktOC43IDkuNCBjMC43IDAuNiAxLjMgMS43IDEuMyAzLjVjMCAyLjYgMCA0LjYgMCA1LjJjMCAwLjUgMC40IDEuMSAxLjMgMC45YzcuNS0yLjYgMTMtOS43IDEzLTE4LjFDNTEgMjEuOSA0Mi41IDEzLjQgMzIgMTMuNHoiLz48L3N2Zz4=');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}
-.gh-count {
-  position: relative;
-  margin-left: 4px;
-  background-color: #fafafa;
-  border: 1px solid #d4d4d4;
-}
-.gh-count:hover,
-.gh-count:focus {
-  color: #4183C4;
-}
-.gh-count:before,
-.gh-count:after {
-  content: '';
-  position: absolute;
-  display: inline-block;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-}
-.gh-count:before {
-  top: 50%;
-  left: -3px;
-  margin-top: -4px;
-  border-width: 4px 4px 4px 0;
-  border-right-color: #fafafa;
-}
-.gh-count:after {
-  top: 50%;
-  left: -4px;
-  z-index: -1;
-  margin-top: -5px;
-  border-width: 5px 5px 5px 0;
-  border-right-color: #d4d4d4;
-}
-.github-btn-large {
-  height: 30px;
-}
-.github-btn-large .gh-btn,
-.github-btn-large .gh-count {
-  padding: 3px 10px 3px 8px;
-  font-size: 16px;
-  line-height: 22px;
-  border-radius: 4px;
-}
-.github-btn-large .gh-ico {
-  width: 20px;
-  height: 20px;
-}
-.github-btn-large .gh-count {
-  margin-left: 6px;
-}
-.github-btn-large .gh-count:before {
-  left: -5px;
-  margin-top: -6px;
-  border-width: 6px 6px 6px 0;
-}
-.github-btn-large .gh-count:after {
-  left: -6px;
-  margin-top: -7px;
-  border-width: 7px 7px 7px 0;
-}
-`]
+                template: "\n  <span [ngClass]=\"{'github-btn':size!=='large', 'github-btn-large':size==='large'}\" id=\"github-btn\">\n    <a class=\"gh-btn\" [ngClass]=\"mainClass\" id=\"gh-btn\" target=\"_blank\" aria-label=\"\" href=\"{{buttonHref}}\">\n        <span class=\"gh-ico\" aria-hidden=\"true\"></span>\n    <span class=\"gh-text\" id=\"gh-text\">{{buttonType}}</span>\n    </a>\n    <a *ngIf=\"count==='true'\" class=\"gh-count\" id=\"gh-count\" href=\"{{counterHref}}\" target=\"_blank\" aria-label=\"\">{{counterNum | number}}</a>\n  </span>\n",
+                styles: ["\n  body {\n  padding: 0;\n  margin: 0;\n  font: bold 11px/14px 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  overflow: hidden;\n}\n.github-btn {\n  height: 20px;\n  overflow: hidden;\n}\n.gh-btn,\n.gh-count,\n.gh-ico {\n  float: left;\n}\n.gh-btn,\n.gh-count {\n  padding: 2px 5px 2px 4px;\n  color: #333;\n  text-decoration: none;\n  white-space: nowrap;\n  cursor: pointer;\n  border-radius: 3px;\n}\n.gh-btn {\n  background-color: #eee;\n  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fcfcfc), color-stop(100%, #eee));\n  background-image: -webkit-linear-gradient(top, #fcfcfc 0, #eee 100%);\n  background-image: -moz-linear-gradient(top, #fcfcfc 0, #eee 100%);\n  background-image: -ms-linear-gradient(top, #fcfcfc 0, #eee 100%);\n  background-image: -o-linear-gradient(top, #fcfcfc 0, #eee 100%);\n  background-image: linear-gradient(to bottom, #fcfcfc 0, #eee 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#eeeeee', GradientType=0);\n  background-repeat: no-repeat;\n  border: 1px solid #d5d5d5;\n}\n.gh-btn:hover,\n.gh-btn:focus {\n  text-decoration: none;\n  background-color: #ddd;\n  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eee), color-stop(100%, #ddd));\n  background-image: -webkit-linear-gradient(top, #eee 0, #ddd 100%);\n  background-image: -moz-linear-gradient(top, #eee 0, #ddd 100%);\n  background-image: -ms-linear-gradient(top, #eee 0, #ddd 100%);\n  background-image: -o-linear-gradient(top, #eee 0, #ddd 100%);\n  background-image: linear-gradient(to bottom, #eee 0, #ddd 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#dddddd', GradientType=0);\n  border-color: #ccc;\n}\n.gh-btn:active {\n  background-image: none;\n  background-color: #dcdcdc;\n  border-color: #b5b5b5;\n  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);\n}\n.gh-ico {\n  width: 14px;\n  height: 14px;\n  margin-right: 4px;\n  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjQwcHgiIGhlaWdodD0iNDBweCIgdmlld0JveD0iMTIgMTIgNDAgNDAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMTIgMTIgNDAgNDAiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGZpbGw9IiMzMzMzMzMiIGQ9Ik0zMiAxMy40Yy0xMC41IDAtMTkgOC41LTE5IDE5YzAgOC40IDUuNSAxNS41IDEzIDE4YzEgMC4yIDEuMy0wLjQgMS4zLTAuOWMwLTAuNSAwLTEuNyAwLTMuMiBjLTUuMyAxLjEtNi40LTIuNi02LjQtMi42QzIwIDQxLjYgMTguOCA0MSAxOC44IDQxYy0xLjctMS4yIDAuMS0xLjEgMC4xLTEuMWMxLjkgMC4xIDIuOSAyIDIuOSAyYzEuNyAyLjkgNC41IDIuMSA1LjUgMS42IGMwLjItMS4yIDAuNy0yLjEgMS4yLTIuNmMtNC4yLTAuNS04LjctMi4xLTguNy05LjRjMC0yLjEgMC43LTMuNyAyLTUuMWMtMC4yLTAuNS0wLjgtMi40IDAuMi01YzAgMCAxLjYtMC41IDUuMiAyIGMxLjUtMC40IDMuMS0wLjcgNC44LTAuN2MxLjYgMCAzLjMgMC4yIDQuNyAwLjdjMy42LTIuNCA1LjItMiA1LjItMmMxIDIuNiAwLjQgNC42IDAuMiA1YzEuMiAxLjMgMiAzIDIgNS4xYzAgNy4zLTQuNSA4LjktOC43IDkuNCBjMC43IDAuNiAxLjMgMS43IDEuMyAzLjVjMCAyLjYgMCA0LjYgMCA1LjJjMCAwLjUgMC40IDEuMSAxLjMgMC45YzcuNS0yLjYgMTMtOS43IDEzLTE4LjFDNTEgMjEuOSA0Mi41IDEzLjQgMzIgMTMuNHoiLz48L3N2Zz4=');\n  background-size: 100% 100%;\n  background-repeat: no-repeat;\n}\n.gh-count {\n  position: relative;\n  margin-left: 4px;\n  background-color: #fafafa;\n  border: 1px solid #d4d4d4;\n}\n.gh-count:hover,\n.gh-count:focus {\n  color: #4183C4;\n}\n.gh-count:before,\n.gh-count:after {\n  content: '';\n  position: absolute;\n  display: inline-block;\n  width: 0;\n  height: 0;\n  border-color: transparent;\n  border-style: solid;\n}\n.gh-count:before {\n  top: 50%;\n  left: -3px;\n  margin-top: -4px;\n  border-width: 4px 4px 4px 0;\n  border-right-color: #fafafa;\n}\n.gh-count:after {\n  top: 50%;\n  left: -4px;\n  z-index: -1;\n  margin-top: -5px;\n  border-width: 5px 5px 5px 0;\n  border-right-color: #d4d4d4;\n}\n.github-btn-large {\n  height: 30px;\n}\n.github-btn-large .gh-btn,\n.github-btn-large .gh-count {\n  padding: 3px 10px 3px 8px;\n  font-size: 16px;\n  line-height: 22px;\n  border-radius: 4px;\n}\n.github-btn-large .gh-ico {\n  width: 20px;\n  height: 20px;\n}\n.github-btn-large .gh-count {\n  margin-left: 6px;\n}\n.github-btn-large .gh-count:before {\n  left: -5px;\n  margin-top: -6px;\n  border-width: 6px 6px 6px 0;\n}\n.github-btn-large .gh-count:after {\n  left: -6px;\n  margin-top: -7px;\n  border-width: 7px 7px 7px 0;\n}\n"]
             },] },
 ];
 /**
  * @nocollapse
  */
-GithubButton.ctorParameters = () => [
+GithubButton.ctorParameters = function () { return [
     { type: GithubService, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Inject */], args: [GithubService,] },] },
-];
+]; };
 GithubButton.propDecorators = {
     'username': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["f" /* Input */] },],
     'reponame': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["f" /* Input */] },],
@@ -313,8 +185,11 @@ GithubButton.propDecorators = {
     'size': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["f" /* Input */] },],
 };
 
-class GithubButtonModule {
-}
+var GithubButtonModule = (function () {
+    function GithubButtonModule() {
+    }
+    return GithubButtonModule;
+}());
 GithubButtonModule.decorators = [
     { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */], args: [{
                 imports: [__WEBPACK_IMPORTED_MODULE_1__angular_common__["a" /* CommonModule */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* HttpModule */]],
@@ -326,7 +201,7 @@ GithubButtonModule.decorators = [
 /**
  * @nocollapse
  */
-GithubButtonModule.ctorParameters = () => [];
+GithubButtonModule.ctorParameters = function () { return []; };
 
 /**
  * Generated bundle index. Do not edit.
@@ -337,10 +212,10 @@ GithubButtonModule.ctorParameters = () => [];
 
 /***/ }),
 
-/***/ 163:
+/***/ 162:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(73);
+module.exports = __webpack_require__(72);
 
 
 /***/ }),
@@ -359,15 +234,15 @@ webpackEmptyContext.id = 48;
 
 /***/ }),
 
-/***/ 73:
+/***/ 72:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(80);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(80);
 
 
 
@@ -380,7 +255,7 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dyna
 
 /***/ }),
 
-/***/ 79:
+/***/ 78:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -401,8 +276,8 @@ var AppComponent = (function () {
 AppComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["e" /* Component */])({
         selector: 'mm-root',
-        template: __webpack_require__(137),
-        styles: [__webpack_require__(135)]
+        template: __webpack_require__(136),
+        styles: [__webpack_require__(134)]
     })
 ], AppComponent);
 
@@ -410,16 +285,16 @@ AppComponent = __decorate([
 
 /***/ }),
 
-/***/ 80:
+/***/ 79:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(76);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__dist_angular_github_buttons__ = __webpack_require__(160);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__dist___ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(78);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -447,7 +322,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
             __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */],
-            __WEBPACK_IMPORTED_MODULE_4__dist_angular_github_buttons__["a" /* GithubButtonModule */]
+            __WEBPACK_IMPORTED_MODULE_4__dist___["a" /* GithubButtonModule */]
         ],
         providers: [],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* AppComponent */]]
@@ -458,7 +333,7 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 81:
+/***/ 80:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -475,5 +350,5 @@ var environment = {
 
 /***/ })
 
-},[163]);
+},[162]);
 //# sourceMappingURL=main.bundle.js.map
