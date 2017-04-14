@@ -234,7 +234,7 @@ module.exports = {
         }
     }
     }),
-    new BaseHrefWebpackPlugin({ baseHref: '/angular-github-buttons/' }),
+    new BaseHrefWebpackPlugin({ baseHref: '' }),
     new CommonsChunkPlugin({
       "name": "inline",
       "minChunks": null

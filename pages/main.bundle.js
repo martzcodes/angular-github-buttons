@@ -1,9 +1,9 @@
 webpackJsonp([1,4],{
 
-/***/ 134:
+/***/ 138:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(45)();
+exports = module.exports = __webpack_require__(46)();
 // imports
 
 
@@ -18,100 +18,57 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 136:
+/***/ 140:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"container\">\n    <div class=\"tweet-button\">\n        <a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-count=\"none\" data-via=\"martzcodes\">Tweet</a>\n    </div>\n\n    <p>Introducing the unofficial</p>\n    <h1>[Angular-ized] GitHub buttons</h1>\n    <p>Showcase your GitHub repo&#39;s success with hotlinkable GitHub star, fork, or follow buttons. Available in two sizes\n        with up-to-date counts.</p>\n    <p>Made by <a href=\"https://twitter.com/martzcodes\">@martzcodes</a>. Available on <a href=\"https://github.com/martzcodes/angular-github-buttons\">GitHub</a>.</p>\n    <p>Inspired by the original (non-Angular) version by <a href=\"https://twitter.com/mdo\">@mdo</a>. Also on <a href=\"https://github.com/mdo/github-buttons\">GitHub</a>.</p>\n    <p>Uses <a href=\"https://twitter.com/jasonaden1\">@jasonaden1</a>'s ng-conf presentation... Also on <a href=\"https://github.com/jasonaden/simple-ui-lib\">GitHub</a>.</p>\n    <p>Licensed <a href=\"http://www.apache.org/licenses/LICENSE-2.0\">Apache 2</a>.</p>\n\n    <hr>\n\n    <h2 id=\"contents\">Contents</h2>\n\n    <ul id=\"markdown-toc\">\n        <li><a href=\"#contents\">Contents</a></li>\n        <li><a href=\"#star\">Star</a></li>\n        <li><a href=\"#watch\">Watch</a></li>\n        <li><a href=\"#fork\">Fork</a></li>\n        <li><a href=\"#follow\">Follow</a></li>\n        <li><a href=\"#open-source\">Open source</a></li>\n    </ul>\n\n    <hr />\n\n    <h2 id=\"star\">Star</h2>\n\n    <div class=\"example\">\n        <ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"star\" count=\"true\" size=\"large\"></ng-gh-btn>\n    </div>\n\n    <div class=\"highlight\">\n        <code class=\"language-html\" data-lang=\"html\">\n            &lt;ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"star\" count=\"true\" size=\"large\"&gt;&lt;/ng-gh-btn&gt;\n        </code>\n    </div>\n\n    <div class=\"example\">\n        <ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"star\" count=\"true\"></ng-gh-btn>\n    </div>\n\n    <div class=\"highlight\">\n        <code class=\"language-html\" data-lang=\"html\">\n            &lt;ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"star\" count=\"true\" &gt;&lt;/ng-gh-btn&gt;\n        </code>\n    </div>\n\n    <h2 id=\"watch\">Watch</h2>\n    <div class=\"example\">\n        <ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"watch\" count=\"true\" size=\"large\"></ng-gh-btn>\n    </div>\n\n    <div class=\"highlight\">\n        <code class=\"language-html\" data-lang=\"html\">\n            &lt;ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"watch\" count=\"true\" size=\"large\"&gt;&lt;/ng-gh-btn&gt;\n        </code>\n    </div>\n\n    <div class=\"example\">\n        <ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"watch\" count=\"true\"></ng-gh-btn>\n    </div>\n\n    <div class=\"highlight\">\n        <code class=\"language-html\" data-lang=\"html\">\n            &lt;ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"watch\" count=\"true\" &gt;&lt;/ng-gh-btn&gt;\n        </code>\n    </div>    \n\n    <h2 id=\"fork\">Fork</h2>\n\n    <div class=\"example\">\n        <ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"fork\" count=\"true\" size=\"large\"></ng-gh-btn>\n    </div>\n\n    <div class=\"highlight\">\n        <code class=\"language-html\" data-lang=\"html\">\n            &lt;ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"fork\" count=\"true\" size=\"large\"&gt;&lt;/ng-gh-btn&gt;\n        </code>\n    </div>\n\n    <div class=\"example\">\n        <ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"fork\" count=\"true\"></ng-gh-btn>\n    </div>\n\n    <div class=\"highlight\">\n        <code class=\"language-html\" data-lang=\"html\">\n            &lt;ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"fork\" count=\"true\" &gt;&lt;/ng-gh-btn&gt;\n        </code>\n    </div>\n\n    <h2 id=\"follow\">Follow</h2>\n\n    <div class=\"example\">\n        <ng-gh-btn username=\"martzcodes\" type=\"follow\" count=\"true\" size=\"large\"></ng-gh-btn>\n    </div>\n\n    <div class=\"highlight\">\n        <code class=\"language-html\" data-lang=\"html\">\n            &lt;ng-gh-btn username=\"martzcodes\" type=\"follow\" count=\"true\" size=\"large\"&gt;&lt;/ng-gh-btn&gt;\n        </code>\n    </div>\n\n    <div class=\"example\">\n        <ng-gh-btn username=\"martzcodes\" type=\"follow\" count=\"true\"></ng-gh-btn>\n    </div>\n\n    <div class=\"highlight\">\n        <code class=\"language-html\" data-lang=\"html\">\n            &lt;ng-gh-btn username=\"martzcodes\" type=\"follow\" count=\"true\" &gt;&lt;/ng-gh-btn&gt;\n        </code>\n    </div>\n\n    <hr />\n\n    <h2 id=\"open-source\">Open source</h2>\n\n    <p>The unofficial Angular GitHub buttons are available on GitHub for downloading, forking, or contributing.</p>\n\n    <div class=\"example\">\n        <ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"star\" count=\"false\" size=\"large\"></ng-gh-btn>\n        <ng-gh-btn username=\"martzcodes\" reponame=\"angular-github-buttons\" type=\"fork\" count=\"false\" size=\"large\"></ng-gh-btn>\n    </div>\n\n    <p><a href=\"https://github.com/martzcodes/angular-github-buttons\" class=\"btn\">View on GitHub</a></p>\n\n    <hr />\n\n    <p>&lt;3</p>\n\n</div>"
 
 /***/ }),
 
-/***/ 159:
+/***/ 165:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(74);
+
+
+/***/ }),
+
+/***/ 49:
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 49;
+
+
+/***/ }),
+
+/***/ 50:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_share__ = __webpack_require__(139);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_share___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_share__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GithubButtonModule; });
-/* unused harmony export GithubButton */
-/* unused harmony export ɵa */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__github_service__ = __webpack_require__(51);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GithubButton; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
 
-
-
-
-
-var User = (function () {
-    function User() {
-        this.repos = {};
-    }
-    return User;
-}());
-var GithubService = (function () {
-    /**
-     * @param {?} http
-     */
-    function GithubService(http) {
-        this.http = http;
-        this.apiUrl = 'https://api.github.com/';
-        this.users = {};
-    }
-    /**
-     * @param {?} username
-     * @return {?}
-     */
-    GithubService.prototype.getUserInfo = function (username) {
-        if (!this.users.hasOwnProperty(username)) {
-            this.users[username] = new User();
-            this.users[username].observable = this.http.get('https://api.github.com/users/' + username).share();
-        }
-        else {
-            if (!this.users[username].observable) {
-                this.users[username].observable = this.http.get('https://api.github.com/users/' + username).share();
-            }
-        }
-        return this.users[username].observable;
-    };
-    /**
-     * @param {?} username
-     * @param {?} reponame
-     * @return {?}
-     */
-    GithubService.prototype.getRepoInfo = function (username, reponame) {
-        if (!this.users.hasOwnProperty(username)) {
-            this.users[username] = new User();
-            this.users[username].repos[reponame] = this.http.get('https://api.github.com/repos/' + username + '/' + reponame).share();
-        }
-        else {
-            if (!this.users[username].repos.hasOwnProperty(reponame)) {
-                this.users[username].repos[reponame] = this.http.get('https://api.github.com/repos/' + username + '/' + reponame).share();
-            }
-        }
-        return this.users[username].repos[reponame];
-    };
-    return GithubService;
-}());
-GithubService.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */] },
-];
-/**
- * @nocollapse
- */
-GithubService.ctorParameters = function () { return [
-    { type: __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* Http */], decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Inject */], args: [__WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* Http */],] },] },
-]; };
 
 var GithubButton = (function () {
-    /**
-     * @param {?} github
-     */
     function GithubButton(github) {
         this.github = github;
     }
-    /**
-     * @return {?}
-     */
     GithubButton.prototype.ngOnInit = function () {
         var _this = this;
         if (this.reponame && this.type !== 'follow') {
@@ -127,9 +84,6 @@ var GithubButton = (function () {
             });
         }
     };
-    /**
-     * @return {?}
-     */
     GithubButton.prototype.process = function () {
         switch (this.type) {
             case 'watch':
@@ -164,85 +118,111 @@ var GithubButton = (function () {
     };
     return GithubButton;
 }());
-GithubButton.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["e" /* Component */], args: [{
-                selector: 'ng-gh-btn',
-                template: "\n  <span [ngClass]=\"{'github-btn':size!=='large', 'github-btn-large':size==='large'}\" id=\"github-btn\">\n    <a class=\"gh-btn\" [ngClass]=\"mainClass\" id=\"gh-btn\" target=\"_blank\" aria-label=\"\" href=\"{{buttonHref}}\">\n        <span class=\"gh-ico\" aria-hidden=\"true\"></span>\n    <span class=\"gh-text\" id=\"gh-text\">{{buttonType}}</span>\n    </a>\n    <a *ngIf=\"count==='true'\" class=\"gh-count\" id=\"gh-count\" href=\"{{counterHref}}\" target=\"_blank\" aria-label=\"\">{{counterNum | number}}</a>\n  </span>\n",
-                styles: ["\n  body {\n  padding: 0;\n  margin: 0;\n  font: bold 11px/14px 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  overflow: hidden;\n}\n.github-btn {\n  height: 20px;\n  overflow: hidden;\n}\n.gh-btn,\n.gh-count,\n.gh-ico {\n  float: left;\n}\n.gh-btn,\n.gh-count {\n  padding: 2px 5px 2px 4px;\n  color: #333;\n  text-decoration: none;\n  white-space: nowrap;\n  cursor: pointer;\n  border-radius: 3px;\n}\n.gh-btn {\n  background-color: #eee;\n  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fcfcfc), color-stop(100%, #eee));\n  background-image: -webkit-linear-gradient(top, #fcfcfc 0, #eee 100%);\n  background-image: -moz-linear-gradient(top, #fcfcfc 0, #eee 100%);\n  background-image: -ms-linear-gradient(top, #fcfcfc 0, #eee 100%);\n  background-image: -o-linear-gradient(top, #fcfcfc 0, #eee 100%);\n  background-image: linear-gradient(to bottom, #fcfcfc 0, #eee 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#eeeeee', GradientType=0);\n  background-repeat: no-repeat;\n  border: 1px solid #d5d5d5;\n}\n.gh-btn:hover,\n.gh-btn:focus {\n  text-decoration: none;\n  background-color: #ddd;\n  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eee), color-stop(100%, #ddd));\n  background-image: -webkit-linear-gradient(top, #eee 0, #ddd 100%);\n  background-image: -moz-linear-gradient(top, #eee 0, #ddd 100%);\n  background-image: -ms-linear-gradient(top, #eee 0, #ddd 100%);\n  background-image: -o-linear-gradient(top, #eee 0, #ddd 100%);\n  background-image: linear-gradient(to bottom, #eee 0, #ddd 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#dddddd', GradientType=0);\n  border-color: #ccc;\n}\n.gh-btn:active {\n  background-image: none;\n  background-color: #dcdcdc;\n  border-color: #b5b5b5;\n  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);\n}\n.gh-ico {\n  width: 14px;\n  height: 14px;\n  margin-right: 4px;\n  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjQwcHgiIGhlaWdodD0iNDBweCIgdmlld0JveD0iMTIgMTIgNDAgNDAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMTIgMTIgNDAgNDAiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGZpbGw9IiMzMzMzMzMiIGQ9Ik0zMiAxMy40Yy0xMC41IDAtMTkgOC41LTE5IDE5YzAgOC40IDUuNSAxNS41IDEzIDE4YzEgMC4yIDEuMy0wLjQgMS4zLTAuOWMwLTAuNSAwLTEuNyAwLTMuMiBjLTUuMyAxLjEtNi40LTIuNi02LjQtMi42QzIwIDQxLjYgMTguOCA0MSAxOC44IDQxYy0xLjctMS4yIDAuMS0xLjEgMC4xLTEuMWMxLjkgMC4xIDIuOSAyIDIuOSAyYzEuNyAyLjkgNC41IDIuMSA1LjUgMS42IGMwLjItMS4yIDAuNy0yLjEgMS4yLTIuNmMtNC4yLTAuNS04LjctMi4xLTguNy05LjRjMC0yLjEgMC43LTMuNyAyLTUuMWMtMC4yLTAuNS0wLjgtMi40IDAuMi01YzAgMCAxLjYtMC41IDUuMiAyIGMxLjUtMC40IDMuMS0wLjcgNC44LTAuN2MxLjYgMCAzLjMgMC4yIDQuNyAwLjdjMy42LTIuNCA1LjItMiA1LjItMmMxIDIuNiAwLjQgNC42IDAuMiA1YzEuMiAxLjMgMiAzIDIgNS4xYzAgNy4zLTQuNSA4LjktOC43IDkuNCBjMC43IDAuNiAxLjMgMS43IDEuMyAzLjVjMCAyLjYgMCA0LjYgMCA1LjJjMCAwLjUgMC40IDEuMSAxLjMgMC45YzcuNS0yLjYgMTMtOS43IDEzLTE4LjFDNTEgMjEuOSA0Mi41IDEzLjQgMzIgMTMuNHoiLz48L3N2Zz4=');\n  background-size: 100% 100%;\n  background-repeat: no-repeat;\n}\n.gh-count {\n  position: relative;\n  margin-left: 4px;\n  background-color: #fafafa;\n  border: 1px solid #d4d4d4;\n}\n.gh-count:hover,\n.gh-count:focus {\n  color: #4183C4;\n}\n.gh-count:before,\n.gh-count:after {\n  content: '';\n  position: absolute;\n  display: inline-block;\n  width: 0;\n  height: 0;\n  border-color: transparent;\n  border-style: solid;\n}\n.gh-count:before {\n  top: 50%;\n  left: -3px;\n  margin-top: -4px;\n  border-width: 4px 4px 4px 0;\n  border-right-color: #fafafa;\n}\n.gh-count:after {\n  top: 50%;\n  left: -4px;\n  z-index: -1;\n  margin-top: -5px;\n  border-width: 5px 5px 5px 0;\n  border-right-color: #d4d4d4;\n}\n.github-btn-large {\n  height: 30px;\n}\n.github-btn-large .gh-btn,\n.github-btn-large .gh-count {\n  padding: 3px 10px 3px 8px;\n  font-size: 16px;\n  line-height: 22px;\n  border-radius: 4px;\n}\n.github-btn-large .gh-ico {\n  width: 20px;\n  height: 20px;\n}\n.github-btn-large .gh-count {\n  margin-left: 6px;\n}\n.github-btn-large .gh-count:before {\n  left: -5px;\n  margin-top: -6px;\n  border-width: 6px 6px 6px 0;\n}\n.github-btn-large .gh-count:after {\n  left: -6px;\n  margin-top: -7px;\n  border-width: 7px 7px 7px 0;\n}\n"]
-            },] },
-];
-/**
- * @nocollapse
- */
-GithubButton.ctorParameters = function () { return [
-    { type: GithubService, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Inject */], args: [GithubService,] },] },
-]; };
-GithubButton.propDecorators = {
-    'username': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["f" /* Input */] },],
-    'reponame': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["f" /* Input */] },],
-    'type': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["f" /* Input */] },],
-    'count': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["f" /* Input */] },],
-    'size': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["f" /* Input */] },],
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])()
+], GithubButton.prototype, "username");
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])()
+], GithubButton.prototype, "reponame");
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])()
+], GithubButton.prototype, "type");
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])()
+], GithubButton.prototype, "count");
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* Input */])()
+], GithubButton.prototype, "size");
+GithubButton = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* Component */])({
+        selector: 'ng-gh-btn',
+        template: "\n  <span class=\"gh-btn-container\">\n    <span [ngClass]=\"{'github-btn':size!=='large', 'github-btn-large':size==='large'}\" id=\"github-btn\">\n      <a class=\"gh-btn\" [ngClass]=\"mainClass\" id=\"gh-btn\" target=\"_blank\" aria-label=\"\" href=\"{{buttonHref}}\">\n          <svg *ngIf=\"type==='follow' && size!=='large'\" aria-hidden=\"true\" class=\"octicon octicon-mark-github\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z\"></path></svg>\n          <svg *ngIf=\"type==='watch' && size!=='large'\" aria-hidden=\"true\" class=\"octicon octicon-eye\" height=\"16\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"16\"><path fill-rule=\"evenodd\" d=\"M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z\"></path></svg>\n          <svg *ngIf=\"type==='star' && size!=='large'\" aria-hidden=\"true\" class=\"octicon octicon-star\" height=\"16\" version=\"1.1\" viewBox=\"0 0 14 16\" width=\"14\"><path fill-rule=\"evenodd\" d=\"M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z\"></path></svg>\n          <svg *ngIf=\"type==='fork' && size!=='large'\" aria-hidden=\"true\" class=\"octicon octicon-repo-forked\" height=\"16\" version=\"1.1\" viewBox=\"0 0 10 16\" width=\"10\"><path fill-rule=\"evenodd\" d=\"M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z\"></path></svg>\n\n          <svg *ngIf=\"type==='follow' && size==='large'\" aria-hidden=\"true\" class=\"octicon octicon-mark-github\" height=\"32\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"32\"><path fill-rule=\"evenodd\" d=\"M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z\"></path></svg>\n          <svg *ngIf=\"type==='watch' && size==='large'\" aria-hidden=\"true\" class=\"octicon octicon-eye\" height=\"32\" version=\"1.1\" viewBox=\"0 0 16 16\" width=\"32\"><path fill-rule=\"evenodd\" d=\"M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z\"></path></svg>\n          <svg *ngIf=\"type==='star' && size==='large'\" aria-hidden=\"true\" class=\"octicon octicon-star\" height=\"32\" version=\"1.1\" viewBox=\"0 0 14 16\" width=\"28\"><path fill-rule=\"evenodd\" d=\"M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z\"></path></svg>\n          <svg *ngIf=\"type==='fork' && size==='large'\" aria-hidden=\"true\" class=\"octicon octicon-repo-forked\" height=\"32\" version=\"1.1\" viewBox=\"0 0 10 16\" width=\"20\"><path fill-rule=\"evenodd\" d=\"M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z\"></path></svg>\n      <span class=\"gh-text\" id=\"gh-text\">{{buttonType}}</span>\n      </a>\n    </span>\n    <span *ngIf=\"count==='true'\" [ngClass]=\"{'gh-btn-count':size!=='large', 'gh-btn-count-large':size==='large'}\">\n      <a class=\"gh-count\" id=\"gh-count\" href=\"{{counterHref}}\" target=\"_blank\" aria-label=\"\">{{counterNum | number}}</a>\n    </span>\n  </span>\n",
+        styles: ["\n  body {\n  padding: 0;\n  margin: 0;\n  font: bold 11px/14px 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  overflow: hidden;\n}\na {\n  color: #24292e;\n  text-decoration: none;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\";\n}\n.gh-btn-container {\n  display: block;\n  margin-top: 0em;\n  position: relative;\n}\n.octicon {\n    display: inline-block;\n    vertical-align: text-top;\n    fill: currentColor\n}\n.octicon {\n    vertical-align: text-bottom\n}\n.gh-btn-count {\n  float: left;\n    padding: 3px 10px;\n    font-size: 12px;\n    font-weight: 600;\n    line-height: 20px;\n    color: #24292e;\n    vertical-align: middle;\n    background-color: #fff;\n    border: 1px solid rgba(27,31,35,0.2);\n    border-left: 0;\n    border-top-right-radius: 3px;\n    border-bottom-right-radius: 3px;\n}\n.gh-btn-count-large {\n  float: left;\n    padding: 8px 10px;\n    font-size: 24px;\n    font-weight: 600;\n    line-height: 20px;\n    color: #24292e;\n    vertical-align: middle;\n    background-color: #fff;\n    border: 1px solid rgba(27,31,35,0.2);\n    border-left: 0;\n    border-top-right-radius: 3px;\n    border-bottom-right-radius: 3px;\n}\n.github-btn {\n  color: #24292e;\n  background-color: #eff3f6;\n  background-image: -webkit-linear-gradient(270deg, #fafbfc 0%, #eff3f6 90%);\n  background-image: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%);\n  float: left;\n  border-top-right-radius: 0;\n  border-bottom-right-radius: 0;\n  padding: 3px 10px;\n  font-size: 12px;\n  line-height: 20px;\n  position: relative;\n  display: inline-block;\n  font-size: 14px;\n  font-weight: 600;\n  line-height: 20px;\n  white-space: nowrap;\n  vertical-align: middle;\n  cursor: pointer;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n  background-repeat: repeat-x;\n  background-position: -1px -1px;\n  background-size: 110% 110%;\n  border: 1px solid rgba(27,31,35,0.2);\n  border-radius: 0.25em;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n}\n.github-btn-large {\n  color: #24292e;\n  background-color: #eff3f6;\n  background-image: -webkit-linear-gradient(270deg, #fafbfc 0%, #eff3f6 90%);\n  background-image: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%);\n  float: left;\n  border-top-right-radius: 0;\n  border-bottom-right-radius: 0;\n  padding: 3px 10px;\n  position: relative;\n  display: inline-block;\n  font-size: 28px;\n  font-weight: 600;\n  line-height: 20px;\n  white-space: nowrap;\n  vertical-align: middle;\n  cursor: pointer;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n  background-repeat: repeat-x;\n  background-position: -1px -1px;\n  background-size: 110% 110%;\n  border: 1px solid rgba(27,31,35,0.2);\n  border-radius: 0.25em;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n}\n"]
+    }),
+    __param(0, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Inject */])(__WEBPACK_IMPORTED_MODULE_1__github_service__["a" /* GithubService */]))
+], GithubButton);
+
+//# sourceMappingURL=github-button.component.js.map
+
+/***/ }),
+
+/***/ 51:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_share__ = __webpack_require__(143);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_share___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_share__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GithubService; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
 };
 
-var GithubButtonModule = (function () {
-    function GithubButtonModule() {
+
+
+var User = (function () {
+    function User() {
+        this.repos = {};
     }
-    return GithubButtonModule;
+    return User;
 }());
-GithubButtonModule.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */], args: [{
-                imports: [__WEBPACK_IMPORTED_MODULE_1__angular_common__["a" /* CommonModule */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* HttpModule */]],
-                declarations: [GithubButton],
-                exports: [GithubButton],
-                providers: [GithubService]
-            },] },
-];
-/**
- * @nocollapse
- */
-GithubButtonModule.ctorParameters = function () { return []; };
+var GithubService = (function () {
+    function GithubService(http) {
+        this.http = http;
+        this.apiUrl = 'https://api.github.com/'; // URL to web API
+        this.users = {};
+    }
+    GithubService.prototype.getUserInfo = function (username) {
+        if (!this.users.hasOwnProperty(username)) {
+            this.users[username] = new User();
+            this.users[username].observable = this.http.get('https://api.github.com/users/' + username).share();
+        }
+        else {
+            if (!this.users[username].observable) {
+                this.users[username].observable = this.http.get('https://api.github.com/users/' + username).share();
+            }
+        }
+        return this.users[username].observable;
+    };
+    GithubService.prototype.getRepoInfo = function (username, reponame) {
+        if (!this.users.hasOwnProperty(username)) {
+            this.users[username] = new User();
+            this.users[username].repos[reponame] = this.http.get('https://api.github.com/repos/' + username + '/' + reponame).share();
+        }
+        else {
+            if (!this.users[username].repos.hasOwnProperty(reponame)) {
+                this.users[username].repos[reponame] = this.http.get('https://api.github.com/repos/' + username + '/' + reponame).share();
+            }
+        }
+        return this.users[username].repos[reponame];
+    };
+    return GithubService;
+}());
+GithubService = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
+    __param(0, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Inject */])(__WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]))
+], GithubService);
 
-/**
- * Generated bundle index. Do not edit.
- */
-
-
-
-
-/***/ }),
-
-/***/ 162:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(72);
-
-
-/***/ }),
-
-/***/ 48:
-/***/ (function(module, exports) {
-
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 48;
-
+//# sourceMappingURL=github.service.js.map
 
 /***/ }),
 
-/***/ 72:
+/***/ 74:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(82);
 
 
 
@@ -255,11 +235,11 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dyna
 
 /***/ }),
 
-/***/ 78:
+/***/ 80:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(3);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -274,10 +254,10 @@ var AppComponent = (function () {
     return AppComponent;
 }());
 AppComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["e" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Y" /* Component */])({
         selector: 'mm-root',
-        template: __webpack_require__(136),
-        styles: [__webpack_require__(134)]
+        template: __webpack_require__(140),
+        styles: [__webpack_require__(138)]
     })
 ], AppComponent);
 
@@ -285,16 +265,16 @@ AppComponent = __decorate([
 
 /***/ }),
 
-/***/ 79:
+/***/ 81:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__dist___ = __webpack_require__(159);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src___ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(80);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -322,7 +302,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
             __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */],
-            __WEBPACK_IMPORTED_MODULE_4__dist___["a" /* GithubButtonModule */]
+            __WEBPACK_IMPORTED_MODULE_4__src___["a" /* GithubButtonModule */]
         ],
         providers: [],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* AppComponent */]]
@@ -333,7 +313,7 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 80:
+/***/ 82:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -348,7 +328,59 @@ var environment = {
 };
 //# sourceMappingURL=environment.js.map
 
+/***/ }),
+
+/***/ 83:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__github_button_component__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__github_service__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__(29);
+/* unused harmony namespace reexport */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GithubButtonModule; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var GithubButtonModule = (function () {
+    function GithubButtonModule() {
+    }
+    return GithubButtonModule;
+}());
+GithubButtonModule = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
+        imports: [__WEBPACK_IMPORTED_MODULE_1__angular_common__["a" /* CommonModule */], __WEBPACK_IMPORTED_MODULE_4__angular_http__["a" /* HttpModule */]],
+        declarations: [__WEBPACK_IMPORTED_MODULE_2__github_button_component__["a" /* GithubButton */]],
+        exports: [__WEBPACK_IMPORTED_MODULE_2__github_button_component__["a" /* GithubButton */]],
+        providers: [__WEBPACK_IMPORTED_MODULE_3__github_service__["a" /* GithubService */]]
+    })
+], GithubButtonModule);
+
+//# sourceMappingURL=github-button.module.js.map
+
+/***/ }),
+
+/***/ 84:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_github_button_module__ = __webpack_require__(83);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__components_github_button_module__["a"]; });
+
+//# sourceMappingURL=index.js.map
+
 /***/ })
 
-},[162]);
+},[165]);
 //# sourceMappingURL=main.bundle.js.map
